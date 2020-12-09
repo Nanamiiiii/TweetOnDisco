@@ -2,7 +2,7 @@
 This is discord bot tweeting text sent on text channel. 
 
 ## How to use
-'''
+```
 bundle install --path vendor/bundler
 
 echo 'TWITTER_CS_KEY = "<--YOUR TWITTER API KEY-->"' >> .env
@@ -15,4 +15,4 @@ echo 'DISCORD_TOKEN = "<--YOUR DISCORD BOT TOKEN-->"' >> .env
 echo 'DISCORD_CLI_ID = "<--"YOUR DISCORD CLIENT ID-->"' >> .env
 
 bundle exec ruby main.rb
-'''
+```
