@@ -3,7 +3,7 @@ This is discord bot tweeting text sent on text channel.
 
 ## How to use
 ```
-bundle install --path vendor/bundler
+$ bundle install --path vendor/bundler
 
 $ echo 'TWITTER_CS_KEY = "<--YOUR TWITTER API KEY-->"' >> .env
 $ echo 'TWITTER_CS_SEC = "<--YOUR TWITTER API SECRET-->"' >> .env
